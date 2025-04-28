@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yikuan's Portfolio | GPT-4.1 Prompting Guide</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/2.8.2/alpine.js" defer></script>
+</head>
+<body class="bg-blue-50 text-gray-800">
+
+<!-- Loading Screen -->
+<div id="loader" class="fixed top-0 left-0 w-full h-full bg-blue-100 flex items-center justify-center z-50">
+  <div class="animate-spin rounded-full h-20 w-20 border-b-2 border-blue-600"></div>
+</div>
+
+<script>
+window.addEventListener('load', () => {
+  document.getElementById('loader').style.display = 'none';
+});
+</script>
+
+<!-- Hero Section -->
+<section class="min-h-screen flex flex-col justify-center items-center p-8">
+  <h1 class="text-5xl font-bold mb-4">About Me</h1>
+  <p class="text-xl text-blue-700">Bridging Economics and Innovation with Purpose.</p>
+
+  <!-- About Me Section -->
+  <div class="mt-12 flex flex-col md:flex-row items-center max-w-4xl mx-auto">
+    <img src="photo.jpg" alt="Profile Photo" class="w-48 h-48 rounded-full shadow-lg mb-6 md:mb-0 md:mr-8">
+    <div class="text-left">
+      <p class="mb-2">我是黃苡寬，目前就讀於國立政治大學經濟系，專長於經濟分析、資料處理與設計思考。</p>
+      <p class="mb-2">我參與多元社團活動，擁有豐富的專案企劃、團隊合作與創意發想經驗，同時經營個人攝影社群。</p>
+      <p>我的特質是思維縝密、善於洞察與溝通，能有效整合資訊促進協作；具備高度自學能力與適應力。</p>
+      <div class="mt-6 space-y-2">
+        <div>Python (基礎)</div>
+        <div>JavaScript (基礎)</div>
+        <div>R 語言 (基礎)</div>
+        <div>Office 文書軟體 (熟練)</div>
+        <div>Lightroom / Photoshop / Premiere (熟練)</div>
+        <div>日文 (初級)</div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#guide" class="mt-12 inline-block px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition">Go to GPT-4.1 Guide</a>
+</section>
+
+<!-- GPT-4.1 Prompting Guide Section -->
+<section id="guide" class="bg-white py-12 px-8">
+  <h2 class="text-4xl font-bold text-center text-blue-800 mb-8">GPT-4.1 Prompting Guide</h2>
+  <div class="max-w-4xl mx-auto space-y-6">
+    <div>
+      <h3 class="text-2xl font-semibold text-blue-700 mb-2">Overview</h3>
+      <p class="text-gray-700">Understand the strengths of GPT-4.1: better steerability, factuality, and reasoning.</p>
+    </div>
+    <div>
+      <h3 class="text-2xl font-semibold text-blue-700 mb-2">Prompting Techniques</h3>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>Chain of Thought</li>
+        <li>Tree of Thoughts</li>
+        <li>System Instructions</li>
+        <li>Scratchpad Methods</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="text-2xl font-semibold text-blue-700 mb-2">Example Templates</h3>
+      <p class="text-gray-700">Design structured prompts for brainstorming, summarizing, extracting, etc.</p>
+    </div>
+    <div>
+      <h3 class="text-2xl font-semibold text-blue-700 mb-2">Tips for Complex Tasks</h3>
+      <p class="text-gray-700">Use multi-step prompts, verification questions, or external tool integrations.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-600 text-white py-6 text-center">
+  <p>Contact: yikuan112592@gmail.com</p>
+</footer>
+
+</body>
+</html>
